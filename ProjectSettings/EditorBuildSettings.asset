@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/MyAssets/Scenes/MultiplayerTest.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/_MyAssets/Scenes/MainMenu.unity
+    guid: 26d1f63a59a2b4941b2ca4c4bbc3a7af
+  - enabled: 1
+    path: Assets/_MyAssets/Scenes/OpenWorld.unity
+    guid: 4bfebb6aa9dd694408cf787087dc701a
+  - enabled: 0
+    path: Assets/_MyAssets/Scenes/Village.unity
+    guid: 5dd44238a822552459dafd09fce46626
+  - enabled: 0
+    path: Assets/_MyAssets/Scenes/TestingRessources.unity
+    guid: e244b30cdeb27ad48b210430f1364e75
+  - enabled: 1
+    path: Assets/_MyAssets/Scenes/Village_Network.unity
+    guid: 1661ec6f0fd5b064c84f75d942d889e9
+  - enabled: 0
+    path: Assets/_MyAssets/Scenes/ServerBuild.unity
+    guid: 1a39de655ddae2645b8c26714f145ca3
+  m_configObjects: {}

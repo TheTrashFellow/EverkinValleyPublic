@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1236941907004404408
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8934041615721510781}
+  - component: {fileID: 3532044719228224381}
+  m_Layer: 0
+  m_Name: HandHolding
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8934041615721510781
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1236941907004404408}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3532044719228224381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1236941907004404408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e858ec44cacaa24dbbe2b93c974ccb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _villageItem: {fileID: 8905230327231069902, guid: 83c2bb5a2f505b6408b58de6b30b7f0d, type: 3}
+  _axeItem: {fileID: 829651271777783604, guid: da1e74a8bc053e24b9d68e2985069755, type: 3}
+  _pickaxeItem: {fileID: 2938212552041098179, guid: e2b66e69178ff9c40bb414a23a83bb81, type: 3}
+  _villagePrefab: {fileID: 7378634536796481125, guid: 19f14b8fad695c44796f6910140610b4, type: 3}
+  _villagePlaceholderValidPrefab: {fileID: 8143959923465115937, guid: 55cd85fcff453784d8ef9cf6ca827092, type: 3}
+  _villagePlaceholderInvalidPrefab: {fileID: 7549628645949506744, guid: f1f40871eea228044a7a412c5a268725, type: 3}

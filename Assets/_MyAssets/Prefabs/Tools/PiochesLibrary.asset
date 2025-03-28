@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d385ee2d9d87aef49a93e32fe95d12e7, type: 3}
+  m_Name: PiochesLibrary
+  m_EditorClassIdentifier: 
+  _tools:
+  - _toolId: 1
+    _toolPrefabs: {fileID: 6335080104078168550, guid: 85cd91ca44d989e42bad072c9b874706, type: 3}
+  - _toolId: 2
+    _toolPrefabs: {fileID: 6099305956094237312, guid: eb05b20a5a8d7f447831f45debf48024, type: 3}
+  - _toolId: 3
+    _toolPrefabs: {fileID: 5889569636245921960, guid: 169a99f32240fff4dab181e72db598b4, type: 3}
+  - _toolId: 4
+    _toolPrefabs: {fileID: 3602241405029995685, guid: 13ad468306c3f2b4e897ff89d3e5d70d, type: 3}
+  - _toolId: 5
+    _toolPrefabs: {fileID: 2938212552041098179, guid: e2b66e69178ff9c40bb414a23a83bb81, type: 3}

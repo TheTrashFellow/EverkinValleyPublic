@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04ff15fb9c73f5b408ffea3dfe9233b9, type: 3}
+  m_Name: idResourceLibrary
+  m_EditorClassIdentifier: 
+  _ressources:
+  - idRessource: 1
+    NomRessource: Galet
+    _resourcePrefabs: {fileID: 21300000, guid: a91ebec58d498804daa1115fb47926de, type: 3}
+  - idRessource: 2
+    NomRessource: "\xC9rable Rouge"
+    _resourcePrefabs: {fileID: 21300000, guid: f4b5ce44c81d8df48b83e777ef19c767, type: 3}
+  - idRessource: 3
+    NomRessource: Granite
+    _resourcePrefabs: {fileID: 21300000, guid: c5cde82d4a8317d4b80b2bb95290a57d, type: 3}
+  - idRessource: 4
+    NomRessource: Bouleau
+    _resourcePrefabs: {fileID: 21300000, guid: b59471dbe333f9f4ea4381c1d1ec9f75, type: 3}
+  - idRessource: 5
+    NomRessource: Mahogany
+    _resourcePrefabs: {fileID: 21300000, guid: c5caf9cde0cf65441b5c06d4426be8a6, type: 3}
+  - idRessource: 6
+    NomRessource: Acajou
+    _resourcePrefabs: {fileID: 21300000, guid: ba0530b33cfb8054bb6f0082ef232290, type: 3}
+  - idRessource: 7
+    NomRessource: Amethyste
+    _resourcePrefabs: {fileID: 21300000, guid: 1f389a04f81ee414083f3c0f0b7b52c7, type: 3}
+  - idRessource: 8
+    NomRessource: Cactus
+    _resourcePrefabs: {fileID: 21300000, guid: 65f53e0abef34c54c9c56032bf14ca84, type: 3}
+  - idRessource: 9
+    NomRessource: Agate du desert
+    _resourcePrefabs: {fileID: 21300000, guid: b104fd8b8ad9bec4b90381377378cf9a, type: 3}
+  - idRessource: 10
+    NomRessource: Agate de feu
+    _resourcePrefabs: {fileID: 21300000, guid: 637e54bc77e5c17449cfd1736674f2cc, type: 3}
+  - idRessource: 11
+    NomRessource: Palmier
+    _resourcePrefabs: {fileID: 21300000, guid: 3b98862661d360e499327b65621cdb32, type: 3}
+  - idRessource: 12
+    NomRessource: Acacia
+    _resourcePrefabs: {fileID: 21300000, guid: dfa2fa6db4e42d349a5ee35f031b1e48, type: 3}
+  - idRessource: 13
+    NomRessource: Celestine
+    _resourcePrefabs: {fileID: 21300000, guid: 192ff5b7d8d1575498d78b469f200ca6, type: 3}
+  - idRessource: 14
+    NomRessource: Calcite
+    _resourcePrefabs: {fileID: 21300000, guid: a538d47a381f60e47b5d903eb9d40338, type: 3}
+  - idRessource: 15
+    NomRessource: Arbre Mort
+    _resourcePrefabs: {fileID: 21300000, guid: c7304efaff52faf4cad24bd8b2d198d4, type: 3}
+  - idRessource: 16
+    NomRessource: Sapin
+    _resourcePrefabs: {fileID: 21300000, guid: e55fa4be2ca800643818a5eb578ae5d7, type: 3}
+  - idRessource: 17
+    NomRessource: Magnesite
+    _resourcePrefabs: {fileID: 21300000, guid: 6411ce85f59531e4796eee19fdae0cd3, type: 3}

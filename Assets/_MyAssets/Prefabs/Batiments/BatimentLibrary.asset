@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5db894a64f73db141ad6197f46258fb5, type: 3}
+  m_Name: BatimentLibrary
+  m_EditorClassIdentifier: 
+  batiments:
+  - idBatiment: 1
+    nomBatiment: Auberge
+    batiment: {fileID: 4222484653094284411, guid: 1660dcff70550cd4d9636ff02d7ec2c9, type: 3}
+    batimentValid: {fileID: 3592267063552813572, guid: 7e9214eea5a2c9848998944392847328, type: 3}
+    batimentInvalid: {fileID: 3324562719349428826, guid: 8be1bf14c04700f419cf7c21482cd369, type: 3}
+    batimentSprite: {fileID: 21300000, guid: 8c5a7c964c9f21f4bb38e2195f22e4d4, type: 3}
+    amelioration: +10 coffre
+  - idBatiment: 2
+    nomBatiment: Alchimiste
+    batiment: {fileID: 8627190369220093482, guid: 41c9e9e4a3e5b044dac67705bbbd2552, type: 3}
+    batimentValid: {fileID: 1107332246448726939, guid: 84fa229c952ff6443bf14ac5b6db7c97, type: 3}
+    batimentInvalid: {fileID: 8627190369220093482, guid: fec682666d85ad946830ca63c309b3e5, type: 3}
+    batimentSprite: {fileID: 21300000, guid: 7ca0cd1e593113c42b319f5bcad2578a, type: 3}
+    amelioration: +5 inventaire
+  - idBatiment: 3
+    nomBatiment: Boulangerie
+    batiment: {fileID: 2312500309870834696, guid: 2bf633bd7ce0766459f94e3a97737902, type: 3}
+    batimentValid: {fileID: 5980360650590406444, guid: 8253ed85e03da6b4782f3419fe338c6b, type: 3}
+    batimentInvalid: {fileID: 2809437572496154323, guid: f041b81fa95d5f44a96dd71ad4e2405b, type: 3}
+    batimentSprite: {fileID: 21300000, guid: 156160e2c7d3fd24a8dbea2d527edf74, type: 3}
+    amelioration: +5 inventaire
+  - idBatiment: 4
+    nomBatiment: Charpenterie
+    batiment: {fileID: 8131870639081906674, guid: 77345ac0b52d7fd4ab1d747658760941, type: 3}
+    batimentValid: {fileID: 495105820388193082, guid: 2435b6ee6b8e513438f63019130ca100, type: 3}
+    batimentInvalid: {fileID: 8965132703315439640, guid: 5babfea68fedc5c4f9e2a16d995fe446, type: 3}
+    batimentSprite: {fileID: 21300000, guid: 6da1f85fef68f9241b86dfba3c299194, type: 3}
+    amelioration: +10 coffre
+  - idBatiment: 5
+    nomBatiment: Forge
+    batiment: {fileID: 2255319579488356909, guid: 4382f9d7ef2afb24cb98e37130e1448a, type: 3}
+    batimentValid: {fileID: 5106288024833315646, guid: a654f535245de6245ab3f7b6ab45d633, type: 3}
+    batimentInvalid: {fileID: 3726933769084265575, guid: 269b689a1cfdf6c48a846abc65389253, type: 3}
+    batimentSprite: {fileID: 21300000, guid: db0af19ebd20eb44faaca49d7da55090, type: 3}
+    amelioration: +10 coffre
+  - idBatiment: 6
+    nomBatiment: Moulin
+    batiment: {fileID: 5248492667222897850, guid: 0df8592400ba1284e8ca56ee6449f70c, type: 3}
+    batimentValid: {fileID: 6490995318591505667, guid: 8420dbe011c6a8642ab7c5c4ed824331, type: 3}
+    batimentInvalid: {fileID: 6359191750991582677, guid: b0e06245d2335de48bf9c9745fab7a6a, type: 3}
+    batimentSprite: {fileID: 21300000, guid: a23c20aaa9c986242bfaa584da4bc242, type: 3}
+    amelioration: +5 inventaire
+  - idBatiment: 7
+    nomBatiment: Grange
+    batiment: {fileID: 3134793057061170276, guid: 2ec68f75f546dec46af4f462aae22ffa, type: 3}
+    batimentValid: {fileID: 4120829252004187213, guid: 9e5653034b72e3e47bf286aaf4d5514f, type: 3}
+    batimentInvalid: {fileID: 7825214916065374371, guid: a58468e884919094f90041763dc1f591, type: 3}
+    batimentSprite: {fileID: 21300000, guid: bd055113575f9ab48b43c22f43ffacb4, type: 3}
+    amelioration: +10 coffre
+  - idBatiment: 8
+    nomBatiment: Taverne
+    batiment: {fileID: 6649703216668097468, guid: c102408ff2f7b8545bf372cca75c01db, type: 3}
+    batimentValid: {fileID: 133006860025186726, guid: 3307afaa129f5fe41a7f63f9e830a4da, type: 3}
+    batimentInvalid: {fileID: 7154463845874963562, guid: b8a8d9b8e6580ae4c910acf63b739614, type: 3}
+    batimentSprite: {fileID: 21300000, guid: 01b1f2e8b92aafc4588f0fef2a0070f1, type: 3}
+    amelioration: +5 inventaire
+  - idBatiment: 9
+    nomBatiment: Maison
+    batiment: {fileID: 1840601427545135943, guid: 1cbad313202af8c4d80abe5cf10faf83, type: 3}
+    batimentValid: {fileID: 3719053458819729320, guid: fbd04515c36733943a56a0e92bd33f83, type: 3}
+    batimentInvalid: {fileID: 7734774390870946812, guid: 3e873b85b27df3f47adc84b0e537838c, type: 3}
+    batimentSprite: {fileID: 21300000, guid: c5d419cc3c853c242a1b8f37ebd8217c, type: 3}
+    amelioration: +10 coffre

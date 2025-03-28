@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd5c050910528ad4eafeb1f19740397b, type: 3}
+  m_Name: BiomeResourceLibrary
+  m_EditorClassIdentifier: 
+  _biomes:
+  - biomeName: River
+    _resource: []
+  - biomeName: Beach
+    _resource:
+    - _resourcePrefabs: {fileID: 1097153546879425207, guid: f54270e217750484e850f12682bb6728, type: 3}
+      _rarity: 0.25
+  - biomeName: Plain
+    _resource:
+    - _resourcePrefabs: {fileID: 7565408725673617855, guid: e3cd982aa96be2a4f8448f47fb74a96e, type: 3}
+      _rarity: 0.2
+    - _resourcePrefabs: {fileID: 6927467866964736372, guid: b21ceff665c3ea646a848cf30bf52d19, type: 3}
+      _rarity: 0.1
+  - biomeName: Forest
+    _resource:
+    - _ressourceId: 0
+      _resourcePrefabs: {fileID: 1604718983513939387, guid: 2ee9fa2f995860d4bbeef10437d037b1, type: 3}
+      _rarity: 0.9
+    - _resourcePrefabs: {fileID: 6927467866964736372, guid: b21ceff665c3ea646a848cf30bf52d19, type: 3}
+      _rarity: 0.1
+  - biomeName: Jungle
+    _resource:
+    - _resourcePrefabs: {fileID: 5223330517364153208, guid: 90462cbfdf43447dfbc98c92ef2f1772, type: 3}
+      _rarity: 0.35
+    - _resourcePrefabs: {fileID: 5066943986149446198, guid: c34e57f8e86c34b8dab4edbb167cd0e0, type: 3}
+      _rarity: 0.35
+    - _resourcePrefabs: {fileID: 7552368308175154260, guid: d17b25948e8c153429e46c22f566aa6d, type: 3}
+      _rarity: 0.3
+  - biomeName: Desert
+    _resource:
+    - _resourcePrefabs: {fileID: 3892757162743007387, guid: 65da5bb2d6e288b41baa018d8fec58f3, type: 3}
+      _rarity: 0.05
+    - _resourcePrefabs: {fileID: 7784892361608696438, guid: 575780dd1f55b7941803be0767c1e36e, type: 3}
+      _rarity: 0.01
+    - _resourcePrefabs: {fileID: 686559605147395102, guid: c0c67266f1845c8498bdf5fa7e7d93c1, type: 3}
+      _rarity: 0.03
+    - _resourcePrefabs: {fileID: 679603083519623550, guid: 75baa537fa69bfd45ab1731ba055cc0d, type: 3}
+      _rarity: 0.01
+  - biomeName: Palm Forest
+    _resource:
+    - _resourcePrefabs: {fileID: 3015884620367032846, guid: 79cf2570b79c4034c856ef1c52a0c0e2, type: 3}
+      _rarity: 0.05
+    - _resourcePrefabs: {fileID: 2753374453451354755, guid: 7dcb5a1371e6dfd44a4b74304a497df3, type: 3}
+      _rarity: 0.05
+    - _resourcePrefabs: {fileID: 686559605147395102, guid: c0c67266f1845c8498bdf5fa7e7d93c1, type: 3}
+      _rarity: 0.02
+  - biomeName: Savanna
+    _resource:
+    - _resourcePrefabs: {fileID: 2087058497156578818, guid: fb6e474943d8d0543bba7d7e53f94f75, type: 3}
+      _rarity: 0.02
+    - _resourcePrefabs: {fileID: 2363870038478985696, guid: 486710cd7710d274cabbddaddccd32cb, type: 3}
+      _rarity: 0.02
+    - _resourcePrefabs: {fileID: 6751386795454457247, guid: a28bd39510afdac4583ad068848343a9, type: 3}
+      _rarity: 0.02
+    - _resourcePrefabs: {fileID: 2804267280151052801, guid: fc3f2179d771de14a9d29c62c3643b2a, type: 3}
+      _rarity: 0.02
+    - _resourcePrefabs: {fileID: 6845400141554985864, guid: f4d295c3623461d438540dd74ff28126, type: 3}
+      _rarity: 0.02
+    - _resourcePrefabs: {fileID: 686559605147395102, guid: c0c67266f1845c8498bdf5fa7e7d93c1, type: 3}
+      _rarity: 0.1
+  - biomeName: Ice Spike Plain
+    _resource:
+    - _resourcePrefabs: {fileID: 3925203047753287767, guid: 43945ec3e487e2e42ab00f54b45475c8, type: 3}
+      _rarity: 0.05
+    - _resourcePrefabs: {fileID: 854801655723815023, guid: fee2bb640afd87d43b2377116ce7aa34, type: 3}
+      _rarity: 0.05
+    - _resourcePrefabs: {fileID: 8049558168336794564, guid: c6c5ecfecc11b274ea39071e22dfbc02, type: 3}
+      _rarity: 0.02
+    - _resourcePrefabs: {fileID: 1735041721211680413, guid: a73d9c340456a6146a4f277451efc324, type: 3}
+      _rarity: 0.02
+  - biomeName: Tundra
+    _resource:
+    - _resourcePrefabs: {fileID: 1735041721211680413, guid: a73d9c340456a6146a4f277451efc324, type: 3}
+      _rarity: 0.1
+    - _resourcePrefabs: {fileID: 2529454146259127377, guid: 350d71b01041841808aaf2f517591817, type: 3}
+      _rarity: 0.015
+    - _resourcePrefabs: {fileID: 2809865599372368994, guid: 7f31cbeac32c747388fd1e6296448a8b, type: 3}
+      _rarity: 0.015
+    - _resourcePrefabs: {fileID: 388482722565057107, guid: cd4c864f01d720045a5fd91ec44fd8d5, type: 3}
+      _rarity: 0.01
+  - biomeName: Taiga
+    _resource:
+    - _resourcePrefabs: {fileID: 388482722565057107, guid: cd4c864f01d720045a5fd91ec44fd8d5, type: 3}
+      _rarity: 0.9
+    - _resourcePrefabs: {fileID: 609683117698089024, guid: 0ab7cd3e8bac6ef4b9be472fe5de0e10, type: 3}
+      _rarity: 0.1
